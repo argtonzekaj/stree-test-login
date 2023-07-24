@@ -67,7 +67,7 @@ const Login: React.FC = () => {
 	}
 
 	return (
-		<div className="max-w-[520px] w-full my-0 mx-auto flex flex-col justify-center py-20">
+		<div className="px-5 md:px-0 md:max-w-[520px] w-full my-0 mx-auto flex flex-col justify-center py-32 md:py-20">
 			<div className="w-[230px] h-[78px] mx-auto mt-0 mb-16">
 				<img src={logo} alt="logo" className="w-full h-full object-contain" />
 			</div>

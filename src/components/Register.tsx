@@ -70,7 +70,7 @@ const Register: React.FC = () => {
 	};
 
 	return (
-		<div className="max-w-[520px] w-full my-0 mx-auto flex flex-col justify-center py-20">
+		<div className="px-5 md:px-0 md:max-w-[520px] w-full my-0 mx-auto flex flex-col justify-center py-20">
 			<div className="mb-12">
 				<h2 className="text-[36px] font-semibold">Register to Stree</h2>
 			</div>
@@ -127,8 +127,8 @@ const Register: React.FC = () => {
 						<div>
 							<div
 								style={{
-									height: '5px',
-									width: '100px',
+									height: '8px',
+									width: '80px',
 									backgroundColor: passwordStrength >= 1 ? 'red' : '#CCCCCC',
 								}}
 							/>
@@ -136,8 +136,8 @@ const Register: React.FC = () => {
 						<div>
 							<div
 								style={{
-									height: '5px',
-									width: '100px',
+									height: '8px',
+									width: '80px',
 									backgroundColor: passwordStrength >= 2 ? 'orange' : '#CCCCCC',
 								}}
 							/>
@@ -145,8 +145,8 @@ const Register: React.FC = () => {
 						<div>
 							<div
 								style={{
-									height: '5px',
-									width: '100px',
+									height: '8px',
+									width: '80px',
 									backgroundColor: passwordStrength >= 3 ? 'yellow' : '#CCCCCC',
 								}}
 							/>
@@ -154,8 +154,8 @@ const Register: React.FC = () => {
 						<div>
 							<div
 								style={{
-									height: '5px',
-									width: '100px',
+									height: '8px',
+									width: '80px',
 									backgroundColor: passwordStrength >= 4 ? 'green' : '#CCCCCC',
 								}}
 							/>

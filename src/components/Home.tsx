@@ -17,7 +17,7 @@ const Home: React.FC = () => {
 	};
 
 	return (
-		<div className="max-w-[520px] w-full my-0 mx-auto flex flex-col justify-center py-20">
+		<div className="md:max-w-[520px] px-5 md:px-0 w-full my-0 mx-auto flex flex-col justify-center py-60 md:py-20">
 			<h2 className="text-center font-semibold text-[33px] mb-9">
 				You are now Home
 			</h2>
